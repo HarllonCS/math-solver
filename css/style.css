@@ -1,0 +1,63 @@
+/* Carregar Fontes */
+@font-face {
+    font-family: 'roboto';
+    src: url('../fonts/Roboto.ttf');
+}
+
+/* Colocar espaçamento interno e externo de todos os elementos pra 0 */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Inserir uma cor de fundo e estilizar fonte */
+body {
+    background-color: #fdefd4;
+    font: 1vw 'roboto', sans-serif
+}
+
+/* Estilizar a caixa que envolve todas as funções */
+#container {
+    width: 50vw;
+    margin: 5vw auto 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Funções */
+figure {
+    background-color: white;
+    border: 1px solid #cecece;
+    padding: 8px 3px 3px 3px;
+    margin: 0 1vw 3vw 1vw;
+    width: 18%;
+}
+
+/* Textos das caixas das funções */
+#container a {
+    text-decoration: none;
+    color: #525252;
+}
+
+/* Efeito de quando o usuário passar o mouse por cima */
+#container a:hover {
+    color: #36c5fd;
+}
+
+/* imagens das funções */
+img {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #b3b3b3;
+    padding: 3px;
+}
+
+/* Textos das caixas das funções */
+figcaption {
+    display: block;
+    font-size: .8em;
+    margin: .3vw auto .3vw auto;
+    text-align: justify;
+    width: 80%;
+}
